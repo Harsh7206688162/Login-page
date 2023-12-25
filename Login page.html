@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #6d6a6a;
+        }
+
+        .container {
+            display: flex;
+            height: 100vh;
+        }
+
+        .left-side {
+            flex: 1;
+            background-image:url(https://t4.ftcdn.net/jpg/02/28/95/91/360_F_228959181_1N9F5FyumnprJ7MX23XkBcJCRwrRCv33.jpg);
+            background-size: 100% 100% ;
+            background-repeat: no-repeat;
+            background-attachment: fixed
+
+            width: 100px
+            color: #4c4545;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: #d2d2d2;
+        }
+
+        .right-side {
+              
+            flex: 1;
+            background-color: #17273D;
+            background-attachment: fixed;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+            
+
+        .login-box {
+           background-color: #186049;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+        }
+
+        .login-box input {
+
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            box-sizing: border-box;
+        }
+
+        .login-box button {
+            width: 100%;
+            padding: 10px;
+            background-color: #1d1f21;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    </style>
+    <title>Login Page</title>
+</head>
+<body>
+
+<div class="container">
+    <div class="left-side">
+      
+    </div>
+    <div class="right-side">
+        <div class="login-box">
+           <center> <h1>Login</h1></center>
+        
+            <form action="#" method="post">
+                <input type="text" name="username" placeholder="Username" required>
+                <input type="password" name="password" placeholder="Password" required>
+                <button type="Login">GO</button>
+            </form>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
